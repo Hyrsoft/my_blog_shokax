@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://haoruanwn.github.io</id>
+    <id>https://haoruanwn.github.io/project</id>
     <title>好暖好温暖的博客</title>
     <subtitle>一个电子信息系的大学生</subtitle>
-    <icon>https://haoruanwn.github.io/assets/favicon.ico</icon>
-    <link href="https://haoruanwn.github.io" />
+    <icon>https://haoruanwn.github.io/project/assets/favicon.ico</icon>
+    <link href="https://haoruanwn.github.io/project" />
     <author>
       <name>好软好温暖</name>
     </author>
     <updated>2025-07-27T13:45:49.000Z</updated>
     <entry>
-        <id>https://haoruanwn.github.io/2025/07/27/%E4%BD%BF%E7%94%A8pyocd%E7%83%A7%E5%BD%95%E5%92%8C%E8%B0%83%E8%AF%95MCU/</id>
+        <id>https://haoruanwn.github.io/project/2025/07/27/%E4%BD%BF%E7%94%A8pyocd%E7%83%A7%E5%BD%95%E5%92%8C%E8%B0%83%E8%AF%95MCU/</id>
         <title>使用pyocd烧录和调试MCU</title>
-        <link rel="alternate" href="https://haoruanwn.github.io/2025/07/27/%E4%BD%BF%E7%94%A8pyocd%E7%83%A7%E5%BD%95%E5%92%8C%E8%B0%83%E8%AF%95MCU/"/>
+        <link rel="alternate" href="https://haoruanwn.github.io/project/2025/07/27/%E4%BD%BF%E7%94%A8pyocd%E7%83%A7%E5%BD%95%E5%92%8C%E8%B0%83%E8%AF%95MCU/"/>
         <content type="html">&lt;h1 id=&#34;简介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#简介&#34;&gt;#&lt;/a&gt; 简介&lt;/h1&gt;
 &lt;p&gt;pyOCD 是一个开源 Python 软件包，用于多种受支持的硬件调试器（DAP-Link、J-Link、ST-Link,CMSIS-DAP v1(HID)、CMSIS-DAP v2(WinUSB)、SEGGER J-Link、ST-LINK v2和ST-LINK v3）下编程和调试Arm Cortex-M微控制器。它是完全跨平台的，并支持Linux，macOS和Windows。它内置支持多达70种流行的MCU。通过使用CMSIS-Pack，几乎支持市场上的所有Cortex-M设备。pyOCD还可以作为GDB Service配合GDB调试芯片。&lt;/p&gt;
 &lt;p&gt;使用环境：Ubuntu22.04&lt;/p&gt;
@@ -145,9 +145,9 @@
         <updated>2025-07-27T13:45:49.000Z</updated>
     </entry>
     <entry>
-        <id>https://haoruanwn.github.io/2025/07/27/python%E8%84%9A%E6%9C%AC%E4%BB%8E%E5%98%89%E7%AB%8B%E5%88%9B%E5%AF%BC%E5%85%A5%E5%85%83%E5%99%A8%E4%BB%B6%E5%88%B0kicad/</id>
+        <id>https://haoruanwn.github.io/project/2025/07/27/python%E8%84%9A%E6%9C%AC%E4%BB%8E%E5%98%89%E7%AB%8B%E5%88%9B%E5%AF%BC%E5%85%A5%E5%85%83%E5%99%A8%E4%BB%B6%E5%88%B0kicad/</id>
         <title>python脚本从嘉立创导入元器件到kicad</title>
-        <link rel="alternate" href="https://haoruanwn.github.io/2025/07/27/python%E8%84%9A%E6%9C%AC%E4%BB%8E%E5%98%89%E7%AB%8B%E5%88%9B%E5%AF%BC%E5%85%A5%E5%85%83%E5%99%A8%E4%BB%B6%E5%88%B0kicad/"/>
+        <link rel="alternate" href="https://haoruanwn.github.io/project/2025/07/27/python%E8%84%9A%E6%9C%AC%E4%BB%8E%E5%98%89%E7%AB%8B%E5%88%9B%E5%AF%BC%E5%85%A5%E5%85%83%E5%99%A8%E4%BB%B6%E5%88%B0kicad/"/>
         <content type="html">&lt;h2 id=&#34;一-windows中miniconda的安装与使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-windows中miniconda的安装与使用&#34;&gt;#&lt;/a&gt; 一、Windows中miniconda的安装与使用&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;安装&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.anaconda.com/docs/getting-started/miniconda/install#windows-powershell&#34;&gt;官方安装指南&lt;/a&gt;，以此执行一下三条指令&lt;/p&gt;
@@ -191,9 +191,9 @@
         <updated>2025-07-27T13:43:55.000Z</updated>
     </entry>
     <entry>
-        <id>https://haoruanwn.github.io/2025/07/27/%E6%96%87%E7%AB%A0%E6%B5%8B%E8%AF%95/</id>
+        <id>https://haoruanwn.github.io/project/2025/07/27/%E6%96%87%E7%AB%A0%E6%B5%8B%E8%AF%95/</id>
         <title>Git 常用命令总结</title>
-        <link rel="alternate" href="https://haoruanwn.github.io/2025/07/27/%E6%96%87%E7%AB%A0%E6%B5%8B%E8%AF%95/"/>
+        <link rel="alternate" href="https://haoruanwn.github.io/project/2025/07/27/%E6%96%87%E7%AB%A0%E6%B5%8B%E8%AF%95/"/>
         <content type="html">&lt;h1 id=&#34;git-常用命令笔记&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-常用命令笔记&#34;&gt;#&lt;/a&gt; Git 常用命令笔记&lt;/h1&gt;
 &lt;p&gt;本笔记旨在整理 Git 的基础配置、本地与远程仓库管理、分支操作及一些实用技巧。&lt;/p&gt;
 &lt;hr /&gt;
