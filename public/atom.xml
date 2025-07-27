@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
-    <title>填写您的博客标题</title>
-    <subtitle>填写您的博客副标题</subtitle>
-    <icon>http://example.com/assets/favicon.ico</icon>
-    <link href="http://example.com" />
+    <id>http://haoruanwn.netfily,app</id>
+    <title>好暖好温暖的博客</title>
+    <subtitle>一个电子信息系的大学生</subtitle>
+    <icon>http://haoruanwn.netfily,app/assets/favicon.ico</icon>
+    <link href="http://haoruanwn.netfily,app" />
     <author>
-      <name>填写您的名字</name>
+      <name>好软好温暖</name>
     </author>
     <updated>2025-07-27T07:51:25.206Z</updated>
     <entry>
-        <id>http://example.com/2025/07/27/test/</id>
+        <id>http://haoruanwn.netfily,app/2025/07/27/test/</id>
         <title></title>
-        <link rel="alternate" href="http://example.com/2025/07/27/test/"/>
+        <link rel="alternate" href="http://haoruanwn.netfily,app/2025/07/27/test/"/>
         <content type="html">&lt;h1 id=&#34;关于-shokax&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#关于-shokax&#34;&gt;#&lt;/a&gt; 关于 ShokaX&lt;/h1&gt;
 &lt;h2 id=&#34;什么是-shokax&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#什么是-shokax&#34;&gt;#&lt;/a&gt; 什么是 ShokaX&lt;/h2&gt;
 &lt;p&gt;ShokaX 是一个源自 Shoka 的派生项目，其核心目标是引入前沿技术并持续优化用户体验。&lt;/p&gt;

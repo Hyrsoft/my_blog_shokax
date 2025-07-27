@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 填写您的博客标题 # 例如：张三的博客
-subtitle: '填写您的博客副标题' # 例如：记录学习与生活
-description: '填写您的网站描述' # 这对SEO很重要
+title: 好暖好温暖的博客 # 例如：张三的博客
+subtitle: '一个电子信息系的大学生' # 例如：记录学习与生活
+description: '记录学习与生活的点滴' # 这对SEO很重要
 keywords:
-author: 填写您的名字 # 例如：张三
+author: 好软好温暖 # 例如：张三
 language: zh-CN # 语言，简体中文请使用 zh-CN
 timezone: 'Asia/Shanghai' # 时区，国内用户建议使用 Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://haoruanwn.netfily,app
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:

@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>填写您的博客标题</title>
-        <subtitle>填写您的博客副标题</subtitle>
-        <icon>http://example.com/assets/favicon.ico</icon>
-        <link>http://example.com</link>
+        <title>好暖好温暖的博客</title>
+        <subtitle>一个电子信息系的大学生</subtitle>
+        <icon>http://haoruanwn.netfily,app/assets/favicon.ico</icon>
+        <link>http://haoruanwn.netfily,app</link>
         <author>
-          <name>填写您的名字</name>
+          <name>好软好温暖</name>
         </author>
-        <description>填写您的网站描述</description>
+        <description>记录学习与生活的点滴</description>
         <language>zh-CN</language>
         <pubDate>Sun, 27 Jul 2025 15:51:25 +0800</pubDate>
         <lastBuildDate>Sun, 27 Jul 2025 15:51:25 +0800</lastBuildDate>
         <item>
-            <guid isPermalink="true">http://example.com/2025/07/27/test/</guid>
+            <guid isPermalink="true">http://haoruanwn.netfily,app/2025/07/27/test/</guid>
             <title></title>
-            <link>http://example.com/2025/07/27/test/</link>
+            <link>http://haoruanwn.netfily,app/2025/07/27/test/</link>
             <pubDate>Sun, 27 Jul 2025 15:51:25 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;关于-shokax&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#关于-shokax&#34;&gt;#&lt;/a&gt; 关于 ShokaX&lt;/h1&gt;
 &lt;h2 id=&#34;什么是-shokax&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#什么是-shokax&#34;&gt;#&lt;/a&gt; 什么是 ShokaX&lt;/h2&gt;
