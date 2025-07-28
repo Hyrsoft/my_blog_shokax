@@ -35,19 +35,19 @@ homeConfig:
     enableNextGradientCover: false # 使用CSS渐变作为上/下一页封面
   cateCards:
     - slug: MCU
-      cover: MCU/cover.png
+      cover: MCU/cover.jpg
     - slug: ENV_CONFIG
-      cover: ENV_CONFIG/cover.png
+      cover: ENV_CONFIG/cover.jpg
     - slug: OpenCV
-      cover: OpenCV/cover.png
+      cover: OpenCV/cover.jpg
     - slug: Programing
-      cover: Programing/cover.png
+      cover: Programing/cover.jpg
     - slug: SBC
-      cover: SBC/cover.png
+      cover: SBC/cover.jpg
     - slug: Rust
-      cover: Rust/cover.png
+      cover: Rust/cover.jpg
     - slug: C++
-      cover: C++/cover.png
+      cover: C++/cover.jpg
 
 # ShokaX 模块化分包引入设置
 # 请关闭所有不使用的模块以优化主题 js 体积和性能
