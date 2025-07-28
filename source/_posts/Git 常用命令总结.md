@@ -1,7 +1,8 @@
 ---
 title: Git 常用命令总结
 date: 2025-07-27 17:16:35
-tags:
+tags: Git/Github
+categories: 环境配置&工具使用
 ---
 # Git 常用命令笔记
 

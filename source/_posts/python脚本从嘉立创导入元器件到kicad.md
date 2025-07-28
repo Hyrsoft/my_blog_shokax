@@ -1,7 +1,8 @@
 ---
 title: python脚本从嘉立创导入元器件到kicad
 date: 2025-07-27 21:43:55
-tags:
+tags: KICAD
+categories: 环境配置&工具使用 
 ---
 ## 一、Windows中miniconda的安装与使用
 

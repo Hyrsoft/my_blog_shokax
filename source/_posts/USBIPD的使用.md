@@ -1,7 +1,8 @@
 ---
 title: USBIPD的使用
 date: 2025-07-27 22:49:22
-tags:
+tags: USB
+categories: 单板计算机/Linux开发板
 ---
 ### 使用USBIPD将USB设备共享给WSL2  
 1. 在windows的powershell中安装**USBIPD**，安装后重启powershell
