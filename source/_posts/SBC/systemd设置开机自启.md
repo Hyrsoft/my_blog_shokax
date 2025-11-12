@@ -2,7 +2,7 @@
 title: systemd设置开机自启
 date: 2025-07-28 21:43:52
 tags: 系统配置
-categories: 单板计算机/Linux开发板
+categories: SBC
 ---
 ### **Ubuntu/Debian 使用 `systemd` 设置开机自启服务快速指南**
 

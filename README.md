@@ -32,7 +32,7 @@ pnpm install
 
 ### 二、HEXO基础操作
 
-我没有选择将hexo全局按照，而是每次都用pnpm来调用hexo
+我没有选择将hexo全局安装，而是每次都用pnpm来调用hexo
 
 ```bash
 # 编译生成静态网页
@@ -42,9 +42,38 @@ pnpm dlx hexo g
 pnpm dlx hexo s
 
 # 清理
-pnpm dlx heox clean
+pnpm dlx hexo clean
+
+# 创建新文章
+pnpm dlx hexo new 新文章名称
 ```
 
 ### 三、博客管理
 
 图片管理：themes/shokax/_images.yml
+管理首页四个格子
+```yaml
+homeConfig:
+  gradient: false # 使用CSS渐变作为文章封面
+  # fixedCover 性能比默认的更好，且开启时将启用LCP优化和预加载
+  fixedCover: "" # 主页面cover(为空则使用bing随机图片)
+  coverConfig:
+    enableCover: true # 是否开启头图
+    enablePreload: true #是否开启预加载头图
+    enableNextGradientCover: false # 使用CSS渐变作为上/下一页封面
+  cateCards:
+    - slug: MCU
+      cover: MCU/cover.png
+    - slug: ENV_CONFIG
+      cover: ENV_CONFIG/cover.png
+    # - slug: Linux
+    #   cover: Linux/cover.png
+    - slug: Programming
+      cover: Programming/cover.png
+    - slug: SBC
+      cover: SBC/cover.png
+    - slug: Rust
+      cover: Rust/cover.jpg
+    - slug: C++
+      cover: C++/cover.jpg
+```

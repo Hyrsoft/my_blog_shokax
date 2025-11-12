@@ -2,7 +2,7 @@
 title: 使用开源工具链开发STM32
 date: 2025-07-28 21:34:59
 tags: STM32
-categories: MCU/单片机/微控制器
+categories: MCU
 ---
 ## 使用的工具
 

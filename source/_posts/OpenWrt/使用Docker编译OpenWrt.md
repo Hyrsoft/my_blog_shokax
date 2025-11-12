@@ -1,7 +1,7 @@
 ---
 title: 使用Docker编译OpenWrt
 date: 2025-08-02 01:11:17
-tags: 
+tags: OpenWrt开发
 categories: OpenWrt
 ---
 # 使用Docker编译OpenWrt

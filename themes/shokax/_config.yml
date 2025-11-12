@@ -37,17 +37,13 @@ homeConfig:
     - slug: MCU
       cover: MCU/cover.png
     - slug: ENV_CONFIG
-      cover: ENV_CONFIG/cover.jpg
+      cover: 环境配置&工具使用/cover.png
     - slug: Linux
       cover: Linux/cover.png
     - slug: Programming
       cover: Programming/cover.png
     - slug: SBC
       cover: SBC/cover.png
-    - slug: Rust
-      cover: Rust/cover.jpg
-    - slug: C++
-      cover: C++/cover.jpg
 
 # ShokaX 模块化分包引入设置
 # 请关闭所有不使用的模块以优化主题 js 体积和性能

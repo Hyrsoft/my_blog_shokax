@@ -2,7 +2,7 @@
 title: 设置vim编码格式为utf-8
 date: 2025-07-28 21:47:38
 tags: VIM
-categories: 单板计算机/Linux开发板
+categories: SBC
 ---
 #### 配置 Vim 实现永久解决 
 

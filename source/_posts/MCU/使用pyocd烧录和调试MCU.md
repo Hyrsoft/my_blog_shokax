@@ -2,7 +2,7 @@
 title: 使用pyocd烧录和调试MCU
 date: 2025-07-27 21:45:49
 tags: pyocd/openocd
-categories: MCU/单片机/微控制器
+categories: MCU
 ---
 # 简介
 

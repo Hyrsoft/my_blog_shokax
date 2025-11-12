@@ -2,7 +2,7 @@
 title: 调试USB摄像头
 date: 2025-08-24 20:21:57
 tags: 音视频
-categories: 单板计算机/Linux开发板
+categories: SBC
 ---
 # USB摄像头（带麦克风和扬声器）调试
 带麦克风咪头和扬声器的USB摄像头

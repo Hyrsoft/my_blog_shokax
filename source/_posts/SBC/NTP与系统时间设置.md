@@ -2,7 +2,7 @@
 title: NTP与系统时间设置
 date: 2025-07-28 21:45:22
 tags: 系统配置
-categories: 单板计算机/Linux开发板
+categories: SBC
 ---
 ## 一、安装基础服务
 

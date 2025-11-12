@@ -65,12 +65,12 @@ index_generator:
 
 # Category & Tag
 default_category: uncategorized
-category_map:
-  MCU/单片机/微控制器: MCU
+category_map: # 给分类起一个别名
+  MCU: MCU
   环境配置&工具使用: ENV_CONFIG
   OpenCV: OpenCV
   Programming: Programming
-  单板计算机/Linux开发板: SBC
+  SBC: SBC
   Rust: Rust
   C++: C++
   Linux: Linux

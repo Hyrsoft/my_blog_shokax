@@ -1,0 +1,131 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2"><meta name="theme-color" content="#222"><meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1"><meta name="renderer" content="webkit"><link rel="icon" type="image/ico" sizes="32x32" href="/assets/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="alternate" href="/rss.xml" title="好暖好温暖的博客" type="application/rss+xml"><link rel="alternate" href="/atom.xml" title="好暖好温暖的博客" type="application/atom+xml"><link rel="alternate" type="application/json" title="好暖好温暖的博客" href="https://haoruanwn.github.io/feed.json"><link rel="preconnect" href="https://s4.zstatic.net"><link rel="preconnect" href="https://at.alicdn.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7CFredericka%20the%20Great:400,400italic,700,700italic%7CNoto%20Serif%20JP:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic%7CInconsolata:400,400italic,700,700italic&amp;display=swap&amp;subset=latin,latin-ext" media="none" onload="this.media='all'"><link rel="modulepreload" href="/js/siteInit.js"><link rel="modulepreload" href="/js/nyx-player-7PTV4P6W.js"><link rel="modulepreload" href="/js/copy-tex-GD5CYT32.js"><link rel="modulepreload" href="/js/codeblock-2SEIPCTS.js"><link rel="modulepreload" href="/js/post-OD5MU2IH.js"><link rel="modulepreload" href="/js/chunk-JJ6X6VJG.js"><link rel="modulepreload" href="/js/chunk-77AOTSR7.js"><link rel="modulepreload" href="/js/index.esm-J3F2JIXO.js"><link rel="modulepreload" href="/js/chunk-HJSTZ4VX.js"><link rel="modulepreload" href="/js/chunk-YKTRPC4H.js"><link rel="stylesheet" href="/css/siteInit.css" media="none" onload="this.media='all'"><link rel="preload" href="/assets/win11-1.png" as="image" fetchpriority="high"><link rel="preload" href="/assets/真寻3.png" as="image" fetchpriority="high"><link rel="preload" href="/assets/睦子米2.png" as="image" fetchpriority="high"><link rel="preload" href="/assets/睦子米2.png" as="image" fetchpriority="high"><link rel="preload" href="/assets/睦子米1.png" as="image" fetchpriority="high"><link rel="preload" href="/assets/真寻3.png" as="image" fetchpriority="high"><meta name="keywords" content="Tmux"><meta name="description" content="生活有多种可能性"><link rel="canonical" href="https://haoruanwn.github.io/2025/11/12/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE&amp;%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/Tmux%E7%BB%88%E7%AB%AF%E5%A4%8D%E7%94%A8%E5%B7%A5%E5%85%B7/"><link rel="stylesheet" href="/css/post.css?v=0.5.2-hotfix.1"><link rel="stylesheet" href="/css/mermaid.css?v=0.5.2-hotfix.1"><!-- 临时处理--><link rel="stylesheet" media="none" onload="this.media='all'" href="https://s4.zstatic.net/ajax/libs/KaTeX/0.16.9/katex.min.css"><title>Tmux终端复用工具</title><meta name="generator" content="Hexo 7.3.0"></head><body itemscope="" itemtype="http://schema.org/WebPage"><div id="loading"><div class="cat"><div class="body"></div><div class="head"><div class="face"></div></div><div class="foot"><div class="tummy-end"></div><div class="bottom"></div><div class="legs left"></div><div class="legs right"></div></div><div class="paw"><div class="hands left"></div><div class="hands right"></div></div></div></div><div id="container"><header id="header" itemscope="" itemtype="http://schema.org/WPHeader"><div class="inner"><div id="brand"><div class="pjax"><h1 itemprop="name headline">Tmux终端复用工具</h1><div class="meta"><span class="item" title="创建时间：2025-11-12 15:30:04"><span class="icon"><i class="ic i-calendar"></i></span><span class="text">发表于</span><time itemprop="dateCreated datePublished" datetime="2025-11-12T15:30:04+08:00">2025-11-12</time></span><span class="item" title="本文字数"><span class="icon"><i class="ic i-pen"></i></span><span class="text">本文字数</span><span>1.8k</span><span class="text">字</span></span><span class="item" title="阅读时长"><span class="icon"><i class="ic i-clock"></i></span><span class="text">阅读时长</span><span>2 分钟</span></span></div></div></div><nav id="nav"><div class="inner"><div class="toggle"><div class="lines" aria-label="切换导航栏"><span class="line"></span><span class="line"></span><span class="line"></span></div></div><ul class="menu"><li class="item title"><a href="/" rel="start">A Life of Possibilities</a></li></ul><ul class="right" id="rightNav"><li class="item theme"><i class="ic i-sun"></i></li><li class="item search"><i class="ic i-search"></i></li></ul></div></nav></div><div class="pjax" id="imgs"><ul><li class="item" style="background-image: url(&quot;/assets/win11-1.png&quot;);"></li><li class="item" style="background-image: url(&quot;/assets/真寻3.png&quot;);"></li><li class="item" style="background-image: url(&quot;/assets/睦子米2.png&quot;);"></li><li class="item" style="background-image: url(&quot;/assets/睦子米2.png&quot;);"></li><li class="item" style="background-image: url(&quot;/assets/睦子米1.png&quot;);"></li><li class="item" style="background-image: url(&quot;/assets/真寻3.png&quot;);"></li></ul></div></header><div id="waves"><svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><main><div class="inner"><div class="pjax" id="main"><div class="article wrap"><div class="breadcrumb" itemlistelement="" itemscope="" itemtype="https://schema.org/BreadcrumbList"><i class="ic i-home"></i><span><a href="/">首页</a></span><i class="ic i-angle-right"></i><span class="current" itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/categories/ENV-CONFIG/" itemprop="item" rel="index" title="分类于环境配置&amp;工具使用"><span itemprop="name">环境配置&amp;工具使用<meta itemprop="position" content="0"></span></a></span></div><article class="post block" itemscope="itemscope" itemtype="http://schema.org/Article" lang="zh-CN"><link itemprop="mainEntityOfPage" href="https://haoruanwn.github.io/2025/11/12/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE&amp;%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/Tmux%E7%BB%88%E7%AB%AF%E5%A4%8D%E7%94%A8%E5%B7%A5%E5%85%B7/"><span hidden="hidden" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><meta itemprop="image" content="/assets/avatar.jpg"><meta itemprop="name" content="好软好温暖"><meta itemprop="description" content="Do one thing and do it well., 生活有多种可能性"></span><span hidden="hidden" itemprop="publisher" itemscope="itemscope" itemtype="http://schema.org/Organization"><meta itemprop="name" content="好暖好温暖的博客"></span><div class="body md" itemprop="articleBody"><p><strong><code>tmux</code> (Terminal Multiplexer)</strong> 是一种终端复用器。它可以让你：</p>
+<ol>
+<li>在一个终端窗口中创建<strong>多个虚拟终端会话（Session）</strong>。</li>
+<li>即使 SSH 连接中断、直接关掉终端，<strong>服务器上的 <code>tmux</code> 会话及其中运行的程序（如编译、下载、服务）也会继续运行</strong>。</li>
+<li>可以随时从任何设备<strong>重新连接（Attach）</strong> 到这个会话。</li>
+</ol>
+<h3 id="tmux-基础命令和使用方式"><a class="anchor" href="#tmux-基础命令和使用方式">#</a> 🚀 <code>tmux</code> 基础命令和使用方式</h3>
+<table>
+<thead>
+<tr>
+<th><strong>概念</strong></th>
+<th><strong>场景</strong></th>
+<th><strong>命令 (在 Shell 中输入)</strong></th>
+<th><strong>快捷键 (在 tmux 内部操作)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>创建</strong></td>
+<td>开启一个新的会话。</td>
+<td><code>tmux new -s &lt;会话名&gt;</code></td>
+<td>N/A</td>
+</tr>
+<tr>
+<td><strong>创建并进入</strong></td>
+<td>如果不指定会话名，<code>tmux</code> 会自动创建一个会话并进入。</td>
+<td><code>tmux</code></td>
+<td>N/A</td>
+</tr>
+<tr>
+<td><strong>离开/分离</strong></td>
+<td>保持会话在后台运行，安全地离开终端。</td>
+<td>N/A</td>
+<td><code>Ctrl + b</code> 然后按 <code>d</code></td>
+</tr>
+<tr>
+<td><strong>查看会话</strong></td>
+<td>列出当前服务器上所有正在运行的会话。</td>
+<td><code>tmux ls</code> 或 <code>tmux attach</code></td>
+<td>N/A</td>
+</tr>
+<tr>
+<td><strong>重新连接</strong></td>
+<td>重新进入你离开的会话。</td>
+<td><code>tmux attach -t &lt;会话名&gt;</code></td>
+<td>N/A</td>
+</tr>
+<tr>
+<td><strong>关闭/停止</strong></td>
+<td>彻底杀死一个或多个会话。</td>
+<td><code>tmux kill-session -t &lt;会话名&gt;</code></td>
+<td>N/A</td>
+</tr>
+<tr>
+<td><strong>切换会话</strong></td>
+<td>在多个会话之间快速跳转。</td>
+<td>N/A</td>
+<td><code>Ctrl + b</code> 然后按 <code>s</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="进阶窗格-panes-和窗口-windows"><a class="anchor" href="#进阶窗格-panes-和窗口-windows">#</a> 💡 进阶：窗格 (Panes) 和窗口 (Windows)</h3>
+<p><code>tmux</code> 的强大之处在于它可以在一个会话中管理多个窗口和窗格：</p>
+<table>
+<thead>
+<tr>
+<th><strong>对象</strong></th>
+<th><strong>作用</strong></th>
+<th><strong>快捷键 (Ctrl + b 后按)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>窗口</strong></td>
+<td>多个全屏虚拟终端（如桌面环境中的多个桌面）。</td>
+<td><code>c</code> (Create), <code>n</code> (Next), <code>p</code> (Previous)</td>
+</tr>
+<tr>
+<td><strong>窗格</strong></td>
+<td>将一个窗口分割成多个子区域（如 <code>htop</code> 在左边，代码在右边）。</td>
+<td><code>%</code> (垂直分割), <code>"</code> (水平分割)</td>
+</tr>
+</tbody>
+</table>
+<div class="tags"><a href="/tags/Tmux/" rel="tag"><i class="ic i-tag"></i>Tmux</a></div></div><footer><div class="meta"><span class="item"><span class="icon"><i class="ic i-calendar-check"></i></span><span class="text">更新于 </span><time title="修改时间：2025-11-12 15:37:41" itemprop="dateModified" datetime="2025-11-12T15:37:41+08:00">2025-11-12</time></span></div><div class="reward"><button><i class="ic i-heartbeat"></i>赞赏</button><p>请我喝[茶]~(￣▽￣)~*</p><div id="qr"><div><img loading="lazy" src="/assets/wechatpay.avif" alt="好软好温暖 微信支付"><p>微信支付</p></div><div><img loading="lazy" src="/assets/alipay.avif" alt="好软好温暖 支付宝"><p>支付宝</p></div></div></div><div id="copyright"><ul><li class="author"><strong>本文作者：</strong>好软好温暖<i class="ic i-at"><em>@</em></i>好暖好温暖的博客</li><li class="link"><strong>本文链接：</strong><a href="https://haoruanwn.github.io/2025/11/12/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE&amp;%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/Tmux%E7%BB%88%E7%AB%AF%E5%A4%8D%E7%94%A8%E5%B7%A5%E5%85%B7/" title="Tmux终端复用工具">https://haoruanwn.github.io/2025/11/12/环境配置&amp;工具使用/Tmux终端复用工具/</a></li><li class="license"><strong>版权声明：</strong>本站所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</a> 许可协议。转载请注明出处！</li></ul></div></footer></article></div><div class="post-nav"><div class="item left"><a href="/2025/11/12/SBC/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E8%BD%AFAP%E7%9A%84Linux%E8%AE%BE%E5%A4%87%E9%85%8D%E7%BD%91%E7%AD%96%E7%95%A5/" rel="prev" itemprop="url" data-background-image="/assets/睦子米1.png" title="一种基于软AP的Linux设备配网策略"><span class="type">上一篇</span><span class="category"><i class="ic i-flag"></i>SBC</span><h3>一种基于软AP的Linux设备配网策略</h3></a></div><div class="item right"><a href="/2025/11/12/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE&amp;%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/NetWorkManager/" rel="next" itemprop="url" data-background-image="/assets/睦子米2.png" title="NetWorkManager"><span class="type">下一篇</span><span class="category"><i class="ic i-flag"></i>环境配置&amp;工具使用</span><h3>NetWorkManager</h3></a></div></div><div class="wrap" id="comments"></div></div><div id="sidebar"><div class="inner"><div class="panels"><div class="inner"><div class="contents panel pjax" data-title="文章目录"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#tmux-%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4%E5%92%8C%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F"><span class="toc-number">1.</span> <span class="toc-text"> 🚀 tmux 基础命令和使用方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%9B%E9%98%B6%E7%AA%97%E6%A0%BC-panes-%E5%92%8C%E7%AA%97%E5%8F%A3-windows"><span class="toc-number">2.</span> <span class="toc-text"> 💡 进阶：窗格 (Panes) 和窗口 (Windows)</span></a></li></ol></div><div class="related panel pjax" data-title="系列文章"><ul><li><a href="/2025/07/27/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE&amp;%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/Git%20%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E6%80%BB%E7%BB%93/" rel="bookmark" title="Git 常用命令总结">Git 常用命令总结</a></li><li><a href="/2025/07/27/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE&amp;%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/python%E8%84%9A%E6%9C%AC%E4%BB%8E%E5%98%89%E7%AB%8B%E5%88%9B%E5%AF%BC%E5%85%A5%E5%85%83%E5%99%A8%E4%BB%B6%E5%88%B0kicad/" rel="bookmark" title="python脚本从嘉立创导入元器件到kicad">python脚本从嘉立创导入元器件到kicad</a></li><li><a href="/2025/07/27/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE&amp;%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/USBIPD%E7%9A%84%E4%BD%BF%E7%94%A8/" rel="bookmark" title="USBIPD的使用">USBIPD的使用</a></li><li class="active"><a href="/2025/11/12/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE&amp;%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/Tmux%E7%BB%88%E7%AB%AF%E5%A4%8D%E7%94%A8%E5%B7%A5%E5%85%B7/" rel="bookmark" title="Tmux终端复用工具">Tmux终端复用工具</a></li><li><a href="/2025/11/12/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE&amp;%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/NetWorkManager/" rel="bookmark" title="NetWorkManager">NetWorkManager</a></li><li><a href="/2025/11/12/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE&amp;%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/ADB%E5%B7%A5%E5%85%B7%E5%9F%BA%E7%A1%80%E7%94%A8%E6%B3%95/" rel="bookmark" title="ADB工具基础用法">ADB工具基础用法</a></li></ul></div><div class="overview panel" data-title="站点概览"><div class="author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><img class="image" loading="lazy" decoding="async" itemprop="image" alt="好软好温暖" src="/assets/avatar.avif"><p class="name" itemprop="name">好软好温暖</p><div class="description" itemprop="description">生活有多种可能性</div></div><nav class="state"><div class="item posts"><a href="/archives/"><span class="count">43</span><span class="name">文章</span></a></div><div class="item categories"><a href="/categories/"><span class="count">8</span><span class="name">分类</span></a></div><div class="item tags"><a href="/tags/"><span class="count">21</span><span class="name">标签</span></a></div></nav><div class="social"><a target="_blank" rel="noopener" href="https://github.com/haoruanwn" class="item github" title="https://github.com/haoruanwn"><i class="ic i-github"></i></a><a target="_blank" rel="noopener" href="https://x.com/haoruanwn" class="item twitter" title="https://x.com/haoruanwn"><i class="ic i-twitter"></i></a><a target="_blank" rel="noopener" href="https://www.zhihu.com/people/hao-hao-47-61-37" class="item zhihu" title="https://www.zhihu.com/people/hao-hao-47-61-37"><i class="ic i-zhihu"></i></a></div><div class="menu"><li class="item"><a href="/" rel="section"><i class="ic i-"></i>Home</a></li><li class="item dropdown"><a href="#" onclick="return false;"><i class="ic i-user"></i>关于</a><ul class="submenu"><li class="item"><a href="/about/" rel="section"><i class="ic i-user"></i>关于本站</a></li><li class="item"><a href="/admiration/" rel="section"><i class="ic i-coffee"></i>赞赏博主</a></li></ul></li><li class="item dropdown"><a href="#" onclick="return false;"><i class="ic i-feather"></i>文章</a><ul class="submenu"><li class="item"><a href="/archives/" rel="section"><i class="ic i-list-alt"></i>归档</a></li><li class="item"><a href="/categories/" rel="section"><i class="ic i-th"></i>分类</a></li><li class="item"><a href="/tags/" rel="section"><i class="ic i-tags"></i>标签</a></li></ul></li><li class="item"><a href="/friends/" rel="section"><i class="ic i-heart"></i>友链</a></li></div></div></div></div><ul id="quick"><li class="prev pjax"><a href="/2025/11/12/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE&amp;%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/NetWorkManager/" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a></li><li class="up"><i class="ic i-arrow-up"></i></li><li class="down"><i class="ic i-arrow-down"></i></li><li class="next pjax"><a href="/2025/11/12/SBC/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E8%BD%AFAP%E7%9A%84Linux%E8%AE%BE%E5%A4%87%E9%85%8D%E7%BD%91%E7%AD%96%E7%95%A5/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a></li><li class="percent"></li></ul></div></div><div class="dimmer"></div></div><div id="player"></div></main><footer id="footer"><div class="inner"><div class="widgets"><div class="rpost pjax"><h2>随机文章</h2><ul><li class="item"><div class="breadcrumb"><a href="/categories/OpenCV/" title="分类于OpenCV">OpenCV</a></div><span><a href="/2025/07/28/OpenCV/opencv%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BAwindows/">opencv环境搭建windows</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/SBC/" title="分类于SBC">SBC</a></div><span><a href="/2025/07/28/SBC/%E5%BC%80%E5%8F%91%E6%9D%BF%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE/">开发板网络配置</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/MCU/" title="分类于MCU">MCU</a></div><span><a href="/2025/07/28/MCU/%E4%BD%BF%E7%94%A8%E5%BC%80%E6%BA%90%E5%B7%A5%E5%85%B7%E9%93%BE%E5%BC%80%E5%8F%91STM32/">使用开源工具链开发STM32</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/ENV-CONFIG/" title="分类于环境配置&amp;工具使用">环境配置&amp;工具使用</a></div><span><a href="/2025/07/27/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE&amp;%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/USBIPD%E7%9A%84%E4%BD%BF%E7%94%A8/">USBIPD的使用</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Programming/" title="分类于Programming">Programming</a></div><span><a href="/2025/11/01/Programming/Rust/Rust%E5%B7%A5%E5%85%B7%E9%93%BE%E7%AE%A1%E7%90%86/">Rust工具链管理</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/OpenCV/" title="分类于OpenCV">OpenCV</a></div><span><a href="/2025/07/28/OpenCV/opencv%E6%96%87%E4%BB%B6%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA/">opencv文件输入输出</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Programming/" title="分类于Programming">Programming</a></div><span><a href="/2025/07/31/Programming/C++/CMake%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B%EF%BC%9A%E5%AF%BB%E6%89%BE%E4%BE%9D%E8%B5%96%E5%92%8C%E8%87%AA%E5%AE%9A%E4%B9%89%E5%BA%93/">CMake使用示例：寻找依赖和自定义库</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Programming/" title="分类于Programming">Programming</a></div><span><a href="/2025/11/01/Programming/Rust/Rust%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/">Rust生命周期</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Programming/" title="分类于Programming">Programming</a></div><span><a href="/2025/08/20/Programming/Rust/Rust%E4%B8%AD%E7%9A%84Enum/">Rust中的Enum</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Programming/" title="分类于Programming">Programming</a></div><span><a href="/2025/08/20/Programming/Rust/Rust%E4%B8%AD%E7%9A%84Struct/">Rust中的Struct</a></span></li></ul></div><div class="rpost pjax"><h2>最新评论</h2></div></div><div class="status"><div class="copyright">© 2022 -<span itemprop="copyrightYear">2025</span><span class="with-love"><i class="ic i-sakura rotate"></i></span><span class="author" itemprop="copyrightHolder">好软好温暖 @ A Life of Possibilities</span></div><div class="count"><span class="post-meta-item-icon"><i class="ic i-chart-area"></i></span><span title="站点总字数">175k 字</span><span class="post-meta-divider"> | </span><span class="post-meta-item-icon"><i class="ic i-coffee"></i></span><span title="站点阅读时长">2:39</span></div><div class="powered-by">基于 <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> &amp; Theme.<a target="_blank" rel="noopener" href="https://github.com/theme-shoka-x/hexo-theme-shokaX/">ShokaX</a></div></div></div></footer></div><script data-config="" type="text/javascript">var LOCAL = {
+    ispost: true,
+    path: `2025/11/12/环境配置&amp;工具使用/Tmux终端复用工具/`,
+    favicon: {
+        show: `（●´3｀●）やれやれだぜ`,
+        hide: `(´Д｀)大変だ！`
+    },
+    search: {
+        placeholder: "文章搜索",
+        empty: "关于 「 ${query} 」，什么也没搜到",
+        stats: "${time} ms 内找到 ${hits} 条结果"
+    },
+    nocopy: "false",
+    copyright: `复制成功，转载请遵守 <i class="ic i-creative-commons"></i>BY-NC-SA 协议。`,
+    copy_tex: false,
+    katex: false,
+    mermaid: false,
+    audio: undefined,
+    nocopy: false,
+    outime: true,
+    template: `<div class="note warning"><p><span class="label warning">文章时效性提示</span><br>这是一篇发布于 {{publish}} 天前，最后一次更新在 {{updated}} 天前的文章，部分信息可能已经发生改变，请注意甄别。</p></div>`,
+    quiz: {
+        choice: `单选题`,
+        multiple: `多选题`,
+        true_false: `判断题`,
+        essay: `问答题`,
+        gap_fill: `填空题`,
+        mistake: `错题备注`
+    }
+};
+</script><script>var _hmt = _hmt || [];
+(function () {
+    const hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?true"
+    hm.async = true;
+    const s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+ })();</script><script>(function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=true;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "true");</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=true"></script><script>window.dataLayer = window.dataLayer || [];
+function gtag() {
+    dataLayer.push(arguments);
+}
+gtag('js', new Date());
+gtag('config', 'true');</script><script src="/js/siteInit.js?v=0.5.2-hotfix.1" type="module" fetchpriority="high" defer=""></script></body></html>

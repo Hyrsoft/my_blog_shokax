@@ -3,7 +3,7 @@ layout: pyocd
 title: 使用pyocd调用FLM格式的外部下载算法
 date: 2025-08-03 22:08:05
 tags: pyocd/openocd
-categories: MCU/单片机/微控制器
+categories: MCU
 ---
 # pyocd 调用 FLM 格式的外部下载算法
 

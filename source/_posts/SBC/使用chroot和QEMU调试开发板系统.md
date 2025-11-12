@@ -2,7 +2,7 @@
 title: 使用chroot和QEMU调试开发板系统
 date: 2025-07-28 21:46:47
 tags: rootfs
-categories: 单板计算机/Linux开发板
+categories: SBC
 ---
 # 使用 `chroot` 和 QEMU 调试开发板系统
 
